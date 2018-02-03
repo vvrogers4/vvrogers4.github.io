@@ -11,3 +11,8 @@ body {padding-top: 50px;
 
 .bg-3 {background: #ffffff;
        padding: 10px;}
+
+.bg-4 {color: #3b423f;}
+
+.bg-5 {color: #3b423f;
+       text-align: left;}
