@@ -1,0 +1,13 @@
+body {padding-top: 50px;
+      font-family: 'raleway', sans-serif;}
+
+.bg-1 {background: #3b423f;
+       color: #ffffff;
+       padding: 10px;}
+
+.bg-2 {background: #315649;
+       color: #ffffff;
+       padding: 10px;}
+
+.bg-3 {background: #ffffff;
+       padding: 10px;}
