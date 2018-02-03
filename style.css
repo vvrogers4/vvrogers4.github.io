@@ -3,11 +3,13 @@ body {padding-top: 50px;
 
 .bg-1 {background: #3b423f;
        color: #ffffff;
-       padding: 10px;}
+       padding: 10px;
+       padding-top:30px;}
 
 .bg-2 {background: #315649;
        color: #ffffff;
-       padding: 10px;}
+       padding: 10px;
+       padding-top: 30px;}
 
 .bg-3 {background: #ffffff;
        padding: 10px;}
