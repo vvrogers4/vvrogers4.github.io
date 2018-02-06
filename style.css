@@ -1,20 +1,42 @@
 body {padding-top: 50px;
       font-family: 'raleway', sans-serif;}
 
+body, html {
+    height: 100%;
+}
+
 .bg-1 {background: #3b423f;
        color: #ffffff;
        padding: 10px;
-       padding-top:30px;}
+       padding-top:35px;}
 
 .bg-2 {background: #315649;
        color: #ffffff;
-       padding: 10px;
-       padding-top: 30px;}
+       padding: 35px 150px 20px 150px;}
+
+@media screen and (max-width: 768px){
+  .bg-2 {padding: 0px;}
+  .bg-4 {padding: 0px;}
+}
 
 .bg-3 {background: #ffffff;
        padding: 10px;}
 
-.bg-4 {color: #3b423f;}
+.bg-4 {color: #3b423f;
+        padding: 35px;
+}
 
 .bg-5 {color: #3b423f;
        text-align: left;}
+
+.parallax {background-image: url("https://lh3.googleusercontent.com/6zVuv4qSW6YHggkY5br5i-l4eFGBUGhvlxfxkJ-0ZlTf40HNg94OSmvWdg2sVzpAq9Yxz6B5JhM4quT5zXl-TvUTVsOChgD28QskaSofTeTCkOdrDfhdzMcbePbAzb9A_LuLEJ69HZw9brJ7BpD6n_674xoCY8qvENqygJFoBpvAcaah7Z01S8wBFbnl768Ra7BSohE-rCg7-qqf3fKQYtW5dGPvAuF_J8VJjPFT5EtAxyByQO0np_npXNk5hk-nlMHD8de4iEr8F-0Qb5VA3FgGWio-tSoLoJGuAXjV00ko1_qadquwRyocKGFWSFlSL4TaKkMjIiRd14F1fiO8Cvi8ZGIwJACWiEKlohV1Sskgz4z0Pr14UFfMTbgI1daT5xvtkDsy7ILI83kl_XmCOY0bh12RZw880IrY6bhU22OWwtkwbzWQNw36AgSMRnhQRZiULG-RH-_T0r3ecDKYfza3o69zehjE4iHKQYC_E0uFPfBqyJwVmRMrrDs_Mm7p-2mbzjkt0zJ27q-yyeL9-uDYZOvTbmErhtYyi24YEboG2_iIX_Cie9AWRLneh_i-VQ1CuFQkYxa94nAG6vBp2WkywTHOmDOO2jAOgTE=w1049-h699-no");
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallaxFont {text-align: center;
+               padding-top: 30px;
+               font-size: 100px;}
