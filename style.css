@@ -1,8 +1,9 @@
-body {padding-top: 50px;
+body {padding-top: 51px;
       font-family: 'raleway', sans-serif;}
 
 body, html {
     height: 100%;
+    font-size: 100%;
 }
 
 .bg-1 {background: #3b423f;
